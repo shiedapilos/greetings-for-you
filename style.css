@@ -1,11 +1,11 @@
 :root {
   --plum-deep: #1c1128;
   --plum-mid: #2b1b3d;
-  --kraft: #e8c9a0;
-  --kraft-dark: #d9b88a;
-  --kraft-darker: #c9a876;
+  --kraft: #ffe6ee;
+  --kraft-dark: #ffb6c1;
+  --kraft-darker: #ffdbe9;
   --wax: #c1440e;
-  --gold: #d4a017;
+  --gold: white;
   --ivory: #fff8ed;
   --ink: #241832;
 }
@@ -30,7 +30,7 @@ body {
     var(--plum-mid) 0%,
     var(--plum-deep) 70%
   );
-  font-family: "Karla", sans-serif;
+  font-family: "Fredoka", sans-serif;
   color: var(--ivory);
   overflow: hidden;
   position: relative;
@@ -134,7 +134,7 @@ body {
 
 .letter-content h1 {
   margin: 0 0 10px;
-  font-family: "Fraunces", serif;
+  font-family: "Fredoka", serif;
   font-weight: 600;
   font-size: clamp(1.6rem, 5.5vw, 2.5rem);
   color: var(--ink);
@@ -144,6 +144,7 @@ body {
 .letter-content p {
   margin: 0;
   font-size: clamp(0.9rem, 2.6vw, 1.05rem);
+  font-family: "Fredoka", serif;
   color: var(--ink);
   opacity: 0.75;
   line-height: 1.5;
@@ -212,7 +213,7 @@ body {
   background: none;
   border: 1px solid var(--gold);
   color: var(--gold);
-  font-family: "Karla", sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-size: 0.85rem;
   padding: 8px 16px;
   border-radius: 999px;
