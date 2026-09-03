@@ -132,6 +132,19 @@ body {
   transform: translateY(-138%) scale(1.04);
 }
 
+.letter-content {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.envelope.open .letter-content {
+  transition: opacity 0.5s ease 0.5s;
+}
+
+.envelope.open .letter-content {
+  opacity: 1;
+}
+
 .letter-content h1 {
   margin: 0 0 5px;
   font-family: "Fredoka", serif;
@@ -240,6 +253,7 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .letter,
+  .letter-content,
   .envelope-flap,
   .seal,
   .replay {
